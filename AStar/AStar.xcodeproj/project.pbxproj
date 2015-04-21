@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1E3E1761ADD1F6F001C5942 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E3E1751ADD1F6F001C5942 /* main.m */; };
+		A1E3E1791ADD1F6F001C5942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E3E1781ADD1F6F001C5942 /* AppDelegate.m */; };
+		A1E3E17C1ADD1F6F001C5942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E3E17B1ADD1F6F001C5942 /* ViewController.m */; };
+		A1E3E17F1ADD1F6F001C5942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E3E17D1ADD1F6F001C5942 /* Main.storyboard */; };
+		A1E3E1811ADD1F6F001C5942 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E3E1801ADD1F6F001C5942 /* Images.xcassets */; };
+		A1E3E1841ADD1F6F001C5942 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E3E1821ADD1F6F001C5942 /* LaunchScreen.xib */; };
+		A1E3E1901ADD1F6F001C5942 /* AStarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E3E18F1ADD1F6F001C5942 /* AStarTests.m */; };
+		A1E3E19C1ADD2077001C5942 /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E3E19B1ADD2077001C5942 /* MapView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1E3E18A1ADD1F6F001C5942 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E3E1681ADD1F6F001C5942 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1E3E16F1ADD1F6F001C5942;
+			remoteInfo = AStar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A1E3E1701ADD1F6F001C5942 /* AStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E3E1741ADD1F6F001C5942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E3E1751ADD1F6F001C5942 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1E3E1771ADD1F6F001C5942 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1E3E1781ADD1F6F001C5942 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1E3E17A1ADD1F6F001C5942 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1E3E17B1ADD1F6F001C5942 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1E3E17E1ADD1F6F001C5942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1E3E1801ADD1F6F001C5942 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1E3E1831ADD1F6F001C5942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A1E3E1891ADD1F6F001C5942 /* AStarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AStarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E3E18E1ADD1F6F001C5942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E3E18F1ADD1F6F001C5942 /* AStarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AStarTests.m; sourceTree = "<group>"; };
+		A1E3E19A1ADD2077001C5942 /* MapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		A1E3E19B1ADD2077001C5942 /* MapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1E3E16D1ADD1F6F001C5942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E3E1861ADD1F6F001C5942 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1E3E1671ADD1F6F001C5942 = {
+			isa = PBXGroup;
+			children = (
+				A1E3E1721ADD1F6F001C5942 /* AStar */,
+				A1E3E18C1ADD1F6F001C5942 /* AStarTests */,
+				A1E3E1711ADD1F6F001C5942 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E3E1711ADD1F6F001C5942 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3E1701ADD1F6F001C5942 /* AStar.app */,
+				A1E3E1891ADD1F6F001C5942 /* AStarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E3E1721ADD1F6F001C5942 /* AStar */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3E1771ADD1F6F001C5942 /* AppDelegate.h */,
+				A1E3E1781ADD1F6F001C5942 /* AppDelegate.m */,
+				A1E3E17A1ADD1F6F001C5942 /* ViewController.h */,
+				A1E3E17B1ADD1F6F001C5942 /* ViewController.m */,
+				A1E3E17D1ADD1F6F001C5942 /* Main.storyboard */,
+				A1E3E1991ADD2053001C5942 /* AStar */,
+				A1E3E1801ADD1F6F001C5942 /* Images.xcassets */,
+				A1E3E1821ADD1F6F001C5942 /* LaunchScreen.xib */,
+				A1E3E1731ADD1F6F001C5942 /* Supporting Files */,
+			);
+			path = AStar;
+			sourceTree = "<group>";
+		};
+		A1E3E1731ADD1F6F001C5942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3E1741ADD1F6F001C5942 /* Info.plist */,
+				A1E3E1751ADD1F6F001C5942 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1E3E18C1ADD1F6F001C5942 /* AStarTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3E18F1ADD1F6F001C5942 /* AStarTests.m */,
+				A1E3E18D1ADD1F6F001C5942 /* Supporting Files */,
+			);
+			path = AStarTests;
+			sourceTree = "<group>";
+		};
+		A1E3E18D1ADD1F6F001C5942 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3E18E1ADD1F6F001C5942 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1E3E1991ADD2053001C5942 /* AStar */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3E19A1ADD2077001C5942 /* MapView.h */,
+				A1E3E19B1ADD2077001C5942 /* MapView.m */,
+			);
+			path = AStar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1E3E16F1ADD1F6F001C5942 /* AStar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E3E1931ADD1F6F001C5942 /* Build configuration list for PBXNativeTarget "AStar" */;
+			buildPhases = (
+				A1E3E16C1ADD1F6F001C5942 /* Sources */,
+				A1E3E16D1ADD1F6F001C5942 /* Frameworks */,
+				A1E3E16E1ADD1F6F001C5942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AStar;
+			productName = AStar;
+			productReference = A1E3E1701ADD1F6F001C5942 /* AStar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1E3E1881ADD1F6F001C5942 /* AStarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E3E1961ADD1F6F001C5942 /* Build configuration list for PBXNativeTarget "AStarTests" */;
+			buildPhases = (
+				A1E3E1851ADD1F6F001C5942 /* Sources */,
+				A1E3E1861ADD1F6F001C5942 /* Frameworks */,
+				A1E3E1871ADD1F6F001C5942 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1E3E18B1ADD1F6F001C5942 /* PBXTargetDependency */,
+			);
+			name = AStarTests;
+			productName = AStarTests;
+			productReference = A1E3E1891ADD1F6F001C5942 /* AStarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E3E1681ADD1F6F001C5942 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = sunli;
+				TargetAttributes = {
+					A1E3E16F1ADD1F6F001C5942 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					A1E3E1881ADD1F6F001C5942 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = A1E3E16F1ADD1F6F001C5942;
+					};
+				};
+			};
+			buildConfigurationList = A1E3E16B1ADD1F6F001C5942 /* Build configuration list for PBXProject "AStar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1E3E1671ADD1F6F001C5942;
+			productRefGroup = A1E3E1711ADD1F6F001C5942 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E3E16F1ADD1F6F001C5942 /* AStar */,
+				A1E3E1881ADD1F6F001C5942 /* AStarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1E3E16E1ADD1F6F001C5942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E3E17F1ADD1F6F001C5942 /* Main.storyboard in Resources */,
+				A1E3E1841ADD1F6F001C5942 /* LaunchScreen.xib in Resources */,
+				A1E3E1811ADD1F6F001C5942 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E3E1871ADD1F6F001C5942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1E3E16C1ADD1F6F001C5942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E3E17C1ADD1F6F001C5942 /* ViewController.m in Sources */,
+				A1E3E19C1ADD2077001C5942 /* MapView.m in Sources */,
+				A1E3E1791ADD1F6F001C5942 /* AppDelegate.m in Sources */,
+				A1E3E1761ADD1F6F001C5942 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E3E1851ADD1F6F001C5942 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E3E1901ADD1F6F001C5942 /* AStarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1E3E18B1ADD1F6F001C5942 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1E3E16F1ADD1F6F001C5942 /* AStar */;
+			targetProxy = A1E3E18A1ADD1F6F001C5942 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1E3E17D1ADD1F6F001C5942 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E3E17E1ADD1F6F001C5942 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1E3E1821ADD1F6F001C5942 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E3E1831ADD1F6F001C5942 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1E3E1911ADD1F6F001C5942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1E3E1921ADD1F6F001C5942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1E3E1941ADD1F6F001C5942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AStar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A1E3E1951ADD1F6F001C5942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AStar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A1E3E1971ADD1F6F001C5942 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AStarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AStar.app/AStar";
+			};
+			name = Debug;
+		};
+		A1E3E1981ADD1F6F001C5942 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AStarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AStar.app/AStar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1E3E16B1ADD1F6F001C5942 /* Build configuration list for PBXProject "AStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E3E1911ADD1F6F001C5942 /* Debug */,
+				A1E3E1921ADD1F6F001C5942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E3E1931ADD1F6F001C5942 /* Build configuration list for PBXNativeTarget "AStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E3E1941ADD1F6F001C5942 /* Debug */,
+				A1E3E1951ADD1F6F001C5942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E3E1961ADD1F6F001C5942 /* Build configuration list for PBXNativeTarget "AStarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E3E1971ADD1F6F001C5942 /* Debug */,
+				A1E3E1981ADD1F6F001C5942 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E3E1681ADD1F6F001C5942 /* Project object */;
+}
